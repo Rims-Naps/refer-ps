@@ -1,0 +1,4480 @@
+[
+    {
+        "id": 8005,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Purchase Max cape (Costs 120m)",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+
+    {
+        "id": 8003,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Revert (You wont get the dye back)",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8001,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Create Ironman Group",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8002,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Group Ironman Bank",
+        "line2": "Personal Bank",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 0,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Rock Crabs",
+        "line2": "Experiments",
+        "line3": "Yaks",
+        "line4": "Bandits",
+        "line5": "Next",
+        "next": 1,
+        "npcId": -1
+    },
+    {
+        "id": 1,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Ghouls",
+        "line2": "Chaos Druids",
+        "line3": "Goblins",
+        "line4": "Dust Devils",
+        "line5": "Next",
+        "next": 2,
+        "npcId": -1
+    },
+    {
+        "id": 2,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Chickens",
+        "line2": "Monkey skeletons",
+        "line3": "Monkey Guards",
+        "line4": "Armoured Zombies",
+        "line5": "Back",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Shop I",
+        "line2": "Shop II",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 4,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Dismiss Familiar",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "I'd like to claim my purchased items",
+        "line2": "I'd like to know how many funds I have in total",
+        "line3": "I'd like to teleport to the Member's Zone",
+        "line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 6,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Member's Store I",
+        "line2": "Member's Store II",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You do not have a bank PIN set.",
+        "line2": "Would you like to set one?",
+        "next": 10,
+        "npcId": 494
+    },
+    {
+        "id": 10,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Configure bank PIN.",
+        "line2": "Cancel.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 11,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You currently have a bank PIN set.",
+        "line2": "Would you like to delete it?",
+        "next": 12,
+        "npcId": 494
+    },
+    {
+        "id": 12,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Delete bank PIN.",
+        "line2": "Cancel.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 13,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "I'd like to view the Loyalty Program shop",
+        "line2": "Browse Loyalty Titles",
+        "line3": "Reset my Loyalty Title",
+        "line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 14,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Lottery! Get your weekly ticket!",
+        "line2": "One draw every week! Step up!",
+        "next": 15,
+        "npcId": 4249
+    },
+    {
+        "id": 15,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Tell me more..",
+        "line2": "I'd like to enter!",
+        "line3": "How much is the pot at right now?",
+        "line4": "Who won the lottery last week?",
+        "line5": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 16,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "It costs 1.000.000 coins to enter the lottery.",
+        "line2": "Every Friday, one of the contesters will win a portion",
+        "line3": "of the pot of gold and another lottery will begin. If",
+        "line4": "you have any questions, feel free to ask other contesters.",
+        "next": 15,
+        "npcId": 4249
+    },
+    {
+        "id": 17,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "You have already entered this week's",
+        "line2": "lottery.",
+        "line3": "The winner is announced every Friday.",
+        "next": 15,
+        "npcId": 4249
+    },
+    {
+        "id": 18,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "You have entered this week's",
+        "line2": "lottery.",
+        "line3": "The winner is announced every Friday.",
+        "line4": "Good luck!",
+        "next": 15,
+        "npcId": 4249
+    },
+    {
+        "id": 19,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Sell Bounty Hunter Artifacts",
+		"line2": "Buy PvP Sets",
+		"line3": "Show PvP Stats",
+        "line4": "Open Pk Points Store",
+        "line5": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 20,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "View Live Scoreboard: Top NPC Killcount",
+        "line2": "View Live Scoreboard: Top Donator",
+        "line3": "View Live Scoreboard: Top Total Exp",
+        "line4": "View Live Scoreboard: Top Achiever",
+		"line5": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 21,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Edgeville Wilderness Ditch",
+        "line2": "Edgeville West Dragons (Level 10 Wilderness)",
+        "line3": "Chaos Altar (Level 13 Wilderness)",
+        "line4": "Edgeville East Dragons (Level 23 Wilderness)",
+        "line5": "Ghost Town - Revs (Level 60 Wilderness) [MULTI]",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 22,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Betrayed Dungeon",
+        "line2": "Damned Dungeon",
+        "line3": "Hidden Dungeon",
+        "line4": "Cursed Dungeon",
+        "line5": "Next Page",
+        "next": 153,
+        "npcId": -1
+    },
+    {
+        "id": 23,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Godwars Dungeon",
+        "line2": "Strykewyrm Cavern",
+		"line3": "Ancient Cavern",
+        "line4": "Previous Page",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 24,
+        "type": "OPTION",
+        "lines": 3,
+		"line1": "Talk about Prestiging",
+      	"line2": "Purchase capes", 
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 199,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "I'd like to buy a Exiled Cape (75m)",
+        "line2": "I'd like to buy a Max Cape (50m)",
+        "line3": "I'd like to buy a Completionist Cape (100m)",
+        "line4": "I'd like to buy a 200m Cape (200m)",
+        "line5": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 25,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Warriors Guild",
+        "line2": "Pest Control",
+        "line3": "Duel Arena",
+        "line4": "Barrows",
+        "line5": "Next Page",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 26,
+        "type": "NPC_STATEMENT",
+        "anim": "CALM",
+        "lines": 2,
+        "line1": "Your task is to defend the Void knight while",
+        "line2": "closing all the portals. Good luck adventurer.",
+        "next": -1,
+        "npcId": 3782
+    },
+    {
+        "id": 27,
+        "type": "STATEMENT",
+        "lines": 1,
+        "line1": "You have found a hidden tunnel! Would you like to enter?",
+        "next": 28,
+        "npcId": -1
+    },
+    {
+        "id": 28,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Enter",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 29,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Hello there.",
+        "line2": "I have the ability to help you with your",
+        "line3": "account settings. What would you like to do?",
+        "next": 30,
+        "npcId": 6139
+    },
+    {
+        "id": 30,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Set bank-pin (used when attempting to open the bank)",
+        "line2": "Change Gamemode",
+        "line3": "Change Password",
+        "line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 31,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You already have a bank-pin.",
+        "line2": "Would you like to delete it?",
+        "next": 32,
+        "npcId": 6139
+    },
+    {
+        "id": 32,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "TzHaar Fight Cave",
+        "line2": "TzHaar Fight Pit",
+        "line3": "Graveyard Arena",
+        "line4": "Previous Page",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 33,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Quick Travel: Quest Location",
+        "line2": "Open Quest Log",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 34,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Mini Quests",
+        "line2": "Minigames",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 35,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Recipe For Disaster",
+        "line2": "Nomad's Requeim",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 36,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Look out, here comes TzTok-Jad!",
+        "line2": "You're on your own now JalYt, prepare to fight for",
+        "line3": "your life!",
+        "next": -1,
+        "npcId": 2617
+    },
+    {
+        "id": 37,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You even defeated TzTok-Jad, I am most impressed!",
+        "line2": "Please take this gift as a reward.",
+        "next": -1,
+        "npcId": 2617
+    },
+    {
+        "id": 38,
+        "type": "NPC_STATEMENT",
+        "anim": "SAD",
+        "lines": 4,
+        "line1": "Please! You must help me, adventurer!",
+        "line2": "The Culinaromancer is back!",
+        "line3": "He's going to destroy Avernic!",
+        "line4": "Will you help defeat him?",
+        "next": 44,
+        "npcId": 3385
+    },
+    {
+        "id": 39,
+        "type": "PLAYER_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 1,
+        "line1": "How do I defeat the Culinaromancer?",
+        "next": 40,
+        "npcId": -1
+    },
+    {
+        "id": 40,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 2,
+        "line1": "Enter the portal and gain the Culinaromancer's attention",
+        "line2": "by defeating all his servants.",
+        "next": 41,
+        "npcId": 3385
+    },
+    {
+        "id": 41,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 2,
+        "line1": "Once You have defeated all of them, the Culinaromancer",
+        "line2": "will probably fight you himself. You must slay him!",
+        "next": 42,
+        "npcId": 3385
+    },
+    {
+        "id": 42,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 2,
+        "line1": "Every servant that you defeat will unlock deeper access",
+        "line2": "into the Culinaromancer's chest which is located next to me.",
+        "next": 45,
+        "npcId": 3385
+    },
+    {
+        "id": 44,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Yes",
+        "line2": "No, maybe later.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 45,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Thank you for helping adventurer!",
+        "line2": "I wish you the best of luck!",
+        "next": -1,
+        "npcId": 3385
+    },
+    {
+        "id": 46,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "You did it!",
+        "line2": "You defeated the Culinaromancer!",
+        "line3": "Thank you so much!",
+        "next": 47,
+        "npcId": 3385
+    },
+    {
+        "id": 47,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Remember that you now have full access",
+        "line2": "to the Culinaromancer's chest!",
+        "line3": "It is that thing next to me.",
+        "next": -1,
+        "npcId": 3385
+    },
+    {
+        "id": 48,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Another adventurer!",
+        "line2": "Tell me, have you come to defeat me?",
+        "next": 49,
+        "npcId": 8528
+    },
+    {
+        "id": 49,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Yes, I have!",
+        "line2": "Uhm.. No sir.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 50,
+        "type": "NPC_STATEMENT",
+        "anim": "CALM",
+        "lines": 4,
+        "line1": "Well then. I challenge you to a duel!",
+        "line2": "If I manage to defeat you, I will keep your items.",
+        "line3": "If you manage to defeat me, I will grant you access",
+        "line4": "to my store. Do you wish to begin?",
+        "next": 51,
+        "npcId": 8528
+    },
+    {
+        "id": 51,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "No, not yet.",
+        "line2": "Yes, let's go.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 53,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You fought well.",
+        "line2": "You have gained access to view my shop.",
+        "next": -1,
+        "npcId": 8528
+    },
+    {
+        "id": 54,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Quick Travel: Puro Puro",
+        "line2": "Quick Travel: Karamja - Trap area (Level 23 Hunter Required)",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 55,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Quick Travel: Gnome Course",
+        "line2": "Quick Travel: Barbarian Outpost Course (35 Agility)",
+        "line3": "Quick Travel: Wilderness Course (55 Agility, 50 Wilderness)",
+        "line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 56,
+        "type": "NPC_STATEMENT",
+        "anim": "ANGRY",
+        "lines": 2,
+        "line1": "Hey you! Yes, you!",
+        "line2": "Finish the whole course next time!",
+        "next": -1,
+        "npcId": 437
+    },
+    {
+        "id": 57,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Good job on completing the course!",
+        "line2": "Take these tickets as reward.",
+        "next": -1,
+        "npcId": 437
+    },
+    {
+        "id": 58,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Keep going friend! You're doing great.",
+        "line2": "Take these tickets as reward and motivation!",
+        "next": -1,
+        "npcId": 437
+    },
+    {
+        "id": 59,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Good job! ",
+        "line2": "Moving through pipes and climbing trees is not easy!",
+        "line3": "Take these tickets as reward!",
+        "next": -1,
+        "npcId": 437
+    },
+    {
+        "id": 60,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Create a clan chat",
+        "line2": "Edit my clan chat",
+		"line3": "Delete my clan chat",
+        "line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 61,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Select Slayer Master",
+        "line2": "Quick Travel to Slayer Master",
+        "line3": "Quick Travel to Slayer Tower",
+        "line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 62,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Vannaka",
+        "line2": "Duradel (Level 50 Slayer Required)",
+        "line3": "Kuradel (Level 80 Slayer Required)",
+        "line4": "Sumona (Level 92 Slayer Required)",
+        "line5": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 63,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Buy Shards (25 coins each)",
+        "line2": "Sell Shards (25 coins each)",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 64,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Quick Travel To The Gambling Area",
+        "line2": "Talk About The Lottery",
+        "line3": "View Gambler's Store",
+        "line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 65,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Confirm Task",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 66,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "King Black Dragon",
+        "line2": "Chaos Elemental",
+        "line3": "Slash Bash",
+        "line4": "Nomad",
+        "line5": "More",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 68,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Kalphite Queen",
+        "line2": "Phoenix",
+        "line3": "Bandos Avatar",
+        "line4": "Glacors",
+        "line5": "More",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 69,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Corporeal Beast",
+        "line2": "Nex",
+        "line3": "Return",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 70,
+        "type": "NPC_STATEMENT",
+        "anim": "SCARED",
+        "lines": 4,
+        "line1": "Warning! This Quick Travel leads to a deep",
+        "line2": "Wilderness level.",
+        "line3": "You cannot Quick Travel above level 20 Wilderness!",
+        "line4": "Are you sure you wish to continue anyway?",
+        "next": 71,
+        "npcId": 1
+    },
+    {
+        "id": 71,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Continue",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 72,
+        "type": "NPC_STATEMENT",
+        "anim": "THINKING_STILL",
+        "lines": 1,
+        "line1": "Hmmm... Hold on..",
+        "next": 72,
+        "npcId": 7969
+    },
+    {
+        "id": 73,
+        "type": "NPC_STATEMENT",
+        "anim": "SAD",
+        "lines": 2,
+        "line1": "Nope, sorry.",
+        "line2": "I haven't heard of that item.",
+        "next": -1,
+        "npcId": 7969
+    },
+    {
+        "id": 74,
+        "type": "NPC_STATEMENT",
+        "anim": "GOOFY_LAUGH",
+        "lines": 2,
+        "line1": "You're going to have to be far more",
+        "line2": "specific than that!",
+        "next": -1,
+        "npcId": 7969
+    },
+    {
+        "id": 75,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "About the Well",
+        "line2": "Look down Well",
+        "line3": "Contribute to Well",
+        "line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 76,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "The Well of Goodwill, brought to us by",
+        "line2": "Saradomin. It is said that the well can",
+        "line3": "hold a hundred million coins, and that if it",
+        "line4": "is filled, Saradomin will bless everyone with",
+        "next": 77,
+        "npcId": 802
+    },
+    {
+        "id": 77,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "30% bonus experience for 2 hours.",
+        "line2": "It is also said that those who contributed",
+        "line3": "will be blessed even further, and receive",
+        "line4": "bonus Loyalty points too, during these 2 hours.",
+        "next": 75,
+        "npcId": 802
+    },
+    {
+        "id": 78,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Pick up flowers",
+        "line2": "Leave flowers",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 79,
+        "type": "STATEMENT",
+        "lines": 1,
+        "line1": "Are you sure about this?",
+        "next": 80,
+        "npcId": -1
+    },
+    {
+        "id": 80,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Continue",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 81,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Welcome to Azura!",
+        "line2": "We have a few game modes for you to choose from.",
+        "next": 82,
+        "npcId": 2590
+    },
+    {
+        "id": 82,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Normal",
+        "line2": "Ironman",
+        "line3": "Ultimate Ironman",
+        "line4": "Information About The Modes",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 83,
+        "type": "NPC_STATEMENT",
+        "anim": "SAD",
+        "lines": 3,
+        "line1": "I'm sorry, but right now only ironman-players",
+        "line2": "can change their gamemode.",
+        "line3": "You can always create a new account though!",
+        "next": -1,
+        "npcId": 6139
+    },
+    {
+        "id": 84,
+        "type": "NPC_STATEMENT",
+        "anim": "THINKING_STILL",
+        "lines": 3,
+        "line1": "Are you sure you wish to do that?",
+        "line2": "This change can NEVER be undone.",
+        "line3": "You will keep all your existing progress.",
+        "next": 85,
+        "npcId": 6139
+    },
+    {
+        "id": 85,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Yes",
+        "line2": "No",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 86,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Essence mine",
+        "line2": "Ore mine",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 87,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Mine Rune Essence",
+        "line2": "Mine Pure Essence (level 21 Mining)",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 88,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Edgeville",
+        "line2": "Karamja",
+        "line3": "Draynor Village",
+        "line4": "Al Kharid",
+        "line5": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 89,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Teleport: Low-level Woodcutting",
+        "line2": "Teleport: High-level Woodcutting (Level 60 Required)",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 90,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Welcome to my Graveyard, adventurer.",
+		"line2": "I hope you will enjoy your stay.",
+        "next": 91,
+        "npcId": 3101
+    },
+    {
+        "id": 91,
+        "type": "PLAYER_STATEMENT",
+        "anim": "THINKING_STILL",
+        "lines": 2,
+        "line1": "Thanks!",
+		"line2": "Hmm.. Are those real zombies?",
+        "next": 92
+    },
+    {
+        "id": 92,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Yes they are, sadly..",
+		"line2": "These pesky zombies always make a mess of my yard.",
+		"line3": "Iuff.",
+        "next": 93,
+        "npcId": 3101
+    },
+	{
+        "id": 93,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Iuff. I can make you a deal, adventurer.",
+		"line2": "If you help me clear out all the zombies,",
+		"line3": "I will reward you with fragments which you",
+		"line4": "can use in my store to unlock great items.",
+        "next": 94,
+        "npcId": 3101
+    },
+	{
+        "id": 94,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "I will make sure that each zombie you kill",
+		"line2": "will drop one of these rare fragments.",
+		"line3": "This way, your effort will not be a waste",
+		"line4": "of time. What do you say, are you in?",
+        "next": 95,
+        "npcId": 3101
+    },
+	{
+        "id": 95,
+        "type": "STATEMENT",
+        "lines": 1,
+        "line1": "Would you like to start the Graveyard minigame?",
+        "next": 96
+    },
+	{
+        "id": 96,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Yes, zombies do not scare me!",
+		"line2": "Cancel, abort mission, abort mission!",
+        "next": -1
+    },
+	{
+        "id": 97,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "I've cast a spell on the area.",
+		"line2": "If you die, you will keep your items.",
+		"line3": "Good luck, adventurer.",
+        "next": 98,
+        "npcId": 3101
+    },
+	{
+        "id": 98,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Iuff.",
+        "next": -1,
+        "npcId": 3101
+    },
+	{
+        "id": 99,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Experience",
+		"line2": "Equipment",
+		"line3": "Cancel",
+        "next": -1
+    },
+	{
+        "id": 100,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Buy Pure Set @blu@(1.1M)",
+		"line2": "Buy Melee Main Set @blu@(1.3M)",
+		"line3": "Buy Range Main Set @blu@(1.5M)",
+		"line4": "Buy Magic Main Set @blu@(1.6M)",
+		"line5": "Buy Hybrid Main Set @blu@(2.3M)",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 101,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Configure Gold Charms",
+		"line2": "Configure Green Charms",
+		"line3": "Configure Crimson Charms",
+		"line4": "Configure Blue Charms",
+		"line5": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 102,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Automatically Pick-up All Charms",
+		"line2": "Automatically Turn All Charms Into Exp",
+		"line3": "Cancel",
+        "next": -1
+    },
+	{
+        "id": 103,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Create Slayer Duo Team",
+		"line2": "Leave Slayer Duo Team",
+        "line3": "Cancel",
+        "next": -1
+    },
+	{
+        "id": 104,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Welcome to Daeomheim my friend! To start",
+		"line2": "Dungeoneering you must first be in a party.",
+		"line3": "A party can contain up to 5 members. Simply",
+		"line4": "press on the 'Form Party' button to begin!",
+        "next": -1,
+        "npcId": 9713
+    },
+	{
+        "id": 105,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Floor 1",
+		"line2": "N/A",
+		"line3": "N/A",
+		"line4": "N/A",
+		"line5": "Cancel",
+        "next": -1
+    },
+	{
+        "id": 106,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Complexity 1",
+		"line2": "Complexity 2",
+		"line3": "Complexity 3",
+		"line4": "Complexity 4",
+		"line5": "Cancel",
+        "next": -1
+    },
+	{
+        "id": 107,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Open Dungeoneering Store",
+		"line2": "Start Dungeoneering",
+		"line3": "Cancel",
+		"next": -1
+    },
+	{
+        "id": 108,
+        "type": "OPTION",
+        "lines": 3,
+		"line1": "I want 10 minutes of 30% bonus experience!",
+        "line2": "I want a Voting point!",
+		"line3": "Cancel",
+		"next": -1
+    },
+	{
+        "id": 109,
+        "type": "OPTION",
+        "lines": 3,
+		"line1": "I want 5 minutes of 10% bonus experience!",
+        "line2": "I want 1 Voting point!",
+		"line3": "Cancel",
+		"next": -1
+    },
+	{
+        "id": 110,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Hey there!",
+		"line2": "Gods will no longer take your items as tribute.",
+        "line3": "Normal death mechanics apply!",
+        "next": -1,
+        "npcId": 6139
+    },
+	{
+        "id": 111,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You need to be in a Dungeoneering party to begin.",
+		"line2": "Either join one or form your own.",
+        "next": 107,
+        "npcId": 9713
+    },
+	{
+        "id": 112,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You party has not selected which floor to explore.",
+		"line2": "Come back once you have decided!",
+        "next": 107,
+        "npcId": 9713
+    },
+	{
+        "id": 113,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "You party has not selected which complexity",
+		"line2": "level they wish to explore the floor with.",
+		"line3": "Come back once you have decided!",
+        "next": 107,
+        "npcId": 9713
+    },
+	{
+        "id": 114,
+        "type": "OPTION",
+        "lines": 2,
+		"line1": "Abandon Dungeon",
+        "line2": "Cancel",
+		"next": -1
+    },
+    {
+        "id": 115,
+        "type": "NPC_STATEMENT",
+        "anim": "SCARED",
+        "lines": 4,
+        "line1": "Warning! The entire town has become infested with",
+        "line2": "revenants. You also need to be warned that the whole",
+        "line3": "town is a level @red@60 Wilderness multi-area@bla@.",
+        "line4": "Are you sure you wish to enter anyway?",
+        "next": 116,
+        "npcId": 1
+    },
+	{
+        "id": 116,
+        "type": "OPTION",
+        "lines": 2,
+		"line1": "Enter Ghost Town",
+        "line2": "Cancel",
+		"next": -1
+    },
+    {
+        "id": 117,
+        "type": "PLAYER_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 1,
+        "line1": "A ghost? What are you doing here?",
+        "next": 118,
+        "npcId": -1
+    },
+    {
+        "id": 118,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 2,
+        "line1": "Well, my home town has been overrun with revenants.",
+        "line2": "So there is that.",
+        "next": 119,
+        "npcId": 457
+    },
+    {
+        "id": 119,
+        "type": "PLAYER_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 1,
+        "line1": "Is there anything I can do to help?",
+        "next": 120,
+        "npcId": -1
+    },
+    {
+        "id": 120,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 2,
+        "line1": "I guess you could kill them all?",
+        "line2": "I can take you there if you so wish.",
+        "next": 121,
+        "npcId": 457
+    },
+    {
+        "id": 121,
+        "type": "OPTION",
+        "lines": 2,
+		"line1": "Sure! Teleport Me To Ghost Town!",
+		"line2": "No thanks. Ghosts aren't my thing.",
+		"next": -1
+    },
+    {
+        "id": 122,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 3,
+        "line1": "I can see that You have become a veteran!",
+        "line2": "Would you like the Veteran rank?",
+		"line3": "Warning! It will reset your current rank.",
+        "next": 123,
+        "npcId": 605
+    },
+    {
+        "id": 123,
+        "type": "OPTION",
+        "lines": 2,
+		"line1": "Yes, sure!",
+		"line2": "No thanks.",
+		"next": -1
+    },
+    {
+        "id": 124,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 4,
+        "line1": "Once You have reached the maximum level in a skill,",
+        "line2": "you can reset it to receive Prestige points.",
+		"line3": "These points can be used in my store. You gain more",
+		"line4": "points the more experience you have in the skill.",
+        "next": 125,
+        "npcId": 2579
+    },
+    {
+        "id": 125,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 2,
+        "line1": "You will also receive more points if you're an ironman",
+        "line2": "or ultimate-ironman player.",
+        "next": 126,
+        "npcId": 2579
+    },
+    {
+        "id": 126,
+        "type": "OPTION",
+        "lines": 2,
+		"line1": "I'd like to prestige.",
+		"line2": "No thanks.",
+		"next": -1
+    },
+    {
+        "id": 127,
+        "type": "OPTION",
+        "lines": 4,
+		"line1": "I'd like to play Rise Of The Six.",
+		"line2": "I'd like my Barrows progress reset please.",
+		"line3": "I'd like to view your shop.",
+		"line4": "Never mind.",
+		"next": -1
+    },
+    {
+        "id": 128,
+        "type": "OPTION",
+        "lines": 4,
+		"line1": "I'd like to fight them with my clan!",
+		"line2": "I'd like to fight them on my own!",
+		"line3": "Please let me know how to play.",
+		"line4": "Never mind, sorry.",
+		"next": -1
+    },
+    {
+        "id": 129,
+        "type": "NPC_STATEMENT",
+        "anim": "GLANCE_DOWN",
+        "lines": 4,
+        "line1": "Rise Of The Six is a minigame in which you",
+		"line2": "fight all the Barrows brothers for as long",
+		"line3": "as you can. The minigame can be played with",
+		"line4": "clanchat members too.",
+        "next": 130,
+        "npcId": 1152
+    },
+    {
+        "id": 130,
+        "type": "NPC_STATEMENT",
+        "anim": "GLANCE_DOWN",
+        "lines": 4,
+        "line1": "Each time a Barrows brother is killed, you",
+		"line2": "you and your allies will receive 1 Barrows",
+		"line3": "point. If you play the minigame on your own,",
+		"line4": "you will receive 2 points per kill instead.",
+        "next": 131,
+        "npcId": 1152
+    },
+    {
+        "id": 131,
+        "type": "NPC_STATEMENT",
+        "anim": "GLANCE_DOWN",
+        "lines": 1,
+        "line1": "Barrows points can be spent in my shop.",
+        "next": 132,
+        "npcId": 1152
+    },
+    {
+        "id": 132,
+        "type": "NPC_STATEMENT",
+        "anim": "GLANCE_DOWN",
+        "lines": 2,
+        "line1": "Also, I must let you know that if you die,",
+		"line2": "you will not be able to retrieve your items.",
+        "next": 128,
+        "npcId": 1152
+    },
+    {
+        "id": 133,
+        "type": "NPC_STATEMENT",
+        "anim": "GLANCE_DOWN",
+        "lines": 1,
+        "line1": "There you go.",
+        "next": -1,
+        "npcId": 1152
+    },
+    {
+        "id": 134,
+        "type": "NPC_STATEMENT",
+        "anim": "GLANCE_DOWN",
+        "lines": 2,
+        "line1": "Your clan has just started a Rise Of The Six",
+		"line2": "game. Would you like to join them?",
+        "next": 135,
+        "npcId": 1152
+    },
+    {
+        "id": 135,
+        "type": "OPTION",
+        "lines": 2,
+		"line1": "Yes! Take me to them!",
+		"line2": "No thanks.",
+		"next": -1
+    },
+    {
+        "id": 136,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Oldschool Bosses",
+        "line2": "Modern Bosses",
+		"line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 137,
+        "type": "OPTION",
+        "lines": 4,
+		"line1": "@bla@Callisto (@red@35 Wilderness, Multi@bla@)",
+		"line2": "@bla@Vet'ion (@red@31 Wilderness, Multi@bla@)",
+		"line3": "@bla@Venenatis (@red@27 Wilderness, Multi@bla@)",
+		"line4": "More",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 138,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Zulrah @red@- @mag@KEEP ITEMS ON DEATH",
+        "line2": "Kraken @red@- @yel@Non-Wilderness",
+		"line3": "Scorpia @red@- @yel@Non-Wilderness",
+		"line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 139,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Purchase House (5,000,000 coins)",
+        "line2": "Open Construction Store",
+		"line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 140,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Enter House",
+        "line2": "Enter House (Building Mode)",
+		"line3": "Enter Friend's House",
+		"line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+		"id": 141,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Teleport to Member Zone",
+		"line2": "View Member Shop 1",
+		"line3": "View Member Shop 2",
+        "line4": "View Donation Deals",
+		"line5": "Nevermind",
+		"next": -1
+    },
+    {
+        "id": 142,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 4,
+        "line1": "You can purchase a scroll by using ::store",
+        "line2": "After purchasing a scroll you will be able to",
+        "line3": "unlock membership features. The value of the scroll",
+        "line4": "will be added to your balance.",
+        "next": 143, 
+        "npcId": 3777
+    },
+	{
+        "id": 143,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 4,
+        "line1": "A one-time purchase of $10 will unlock",
+        "line2": "All of the benefits for Members. This $10.",
+        "line3": "Including the exclusive Member zone.",
+        "line4": "And a large variety of benefits across the game..",
+        "next": 141,
+        "npcId": 3777
+    },
+    {
+        "id": 144,
+        "type": "PLAYER_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 1,
+        "line1": "Hello, what are you doing here?",
+        "next": 145,
+        "npcId": -1    
+    },
+    {
+        "id": 145,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 2,
+        "line1": "Psst... Got any Trio Tokens?",
+        "line2": "If you do... I'll take 'em off your hands.",
+        "next": 146,
+        "npcId": 13459
+    },
+    {
+ 		"id": 146,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Uhh... What are Trio Tokens?",
+		"line2": "Take my tokens, I know what they're for.",
+		"line3": "Nevermind.",
+		"next": -1
+    },
+    {
+        "id": 147,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 4,
+        "line1": "Trade me your trio tokens for access to a",
+        "line2": "room with some wicked strong bosses...",
+        "line3": "They drop many rare items. I charge a one token fee to enter,",
+        "line4": "then a token per minute you spend in the cavern.",
+        "next": 149,
+        "npcId": 13459
+    },
+    {
+     	"id": 148,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Sounds great! Take my coin, I'm ready.",
+		"line2": "Nevermind, I'm too scared!",
+		"next": -1
+    },
+    {
+        "id": 149,
+        "type": "NPC_STATEMENT",
+        "anim": "PLAIN_TALKING",
+        "lines": 3,
+        "line1": "But be warned... These bosses are a force",
+        "line2": "to be reckoned with. They hit HARD, and you",
+        "line3": "will be unable to retrieve your items if you die.",
+        "next": 148,
+        "npcId": 13459
+    },
+    {
+        "id": 150,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Al Kharid",
+        "line2": "Ardougne",
+        "line3": "Camelot",
+        "line4": "Canifis",
+        "line5": "Next page",
+        "next":  151,
+        "npcId": -1
+    },
+    {
+        "id": 151,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Draynor",
+        "line2": "Edgeville",
+        "line3": "Falador",
+        "line4": "Home",
+        "line5": "Next page",
+        "next":  152,
+        "npcId": -1
+    },
+    {
+        "id": 152,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Varrock",
+        "line2": "Karamja",
+        "line3": "Lumbridge",
+        "line4": "Yanille",
+        "line5": "Previous page",
+        "next":  150,
+        "npcId": -1
+    },
+    {
+        "id": 153,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Godwars Dungeon",
+        "line2": "Stykewyrm Cavern",
+        "line3": "Ancient Cavern",
+        "line4": "Chaos Tunnels",
+        "line5": "Previous page",
+        "next":  22,
+        "npcId": -1
+    },
+    {
+        "id": 154,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Climb up the stairs.",
+        "line2": "Climb down the stairs.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 155,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Start Boss Fight",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 156,
+        "type": "PLAYER_STATEMENT",
+        "anim": "UNSURE",
+        "lines": 1,
+        "line1": "Uhh... you want my name?",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 157,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "You must Sacrifice a Master Soul to Access this Shop.",
+        "line2": "Continue..",
+        "next": 158,
+        "npcId": 2238
+    },
+    {
+        "id": 158,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "I'm ready to offer my Master Soul",
+        "line2": "I'll come back later..",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 159,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Sacrifice Logs",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 160,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Sacrifice Ore",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 161,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Forge Ticket (150 Ashes + 150 Essence)",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 162,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Enter Frozen Cavern",
+        "line2": "Turn around...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 163,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Exit Frozen Cavern",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 164,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Enter Infernal Cavern",
+        "line2": "Turn Around...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 165,
+        "type": "NPC_STATEMENT",
+        "anim": "MIDLY_ANGRY",
+        "lines": 2,
+        "line1": "Happy Easter!",
+        "line2": "Come back when you have 25 Easter Charms",
+        "next": -1,
+        "npcId": 1
+    },
+    {
+        "id": 166,
+        "type": "PLAYER_STATEMENT",
+        "anim": "MIDLY_ANGRY",
+        "lines": 2,
+        "line1": "I could kill you with my bare hands.",
+        "line2": "Don't tempt me.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 167,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Return to Frozen Cavern",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 168,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Enter the Overgrown Gardens",
+        "line2": "Turn Around...",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 169,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Enter the Infernal Cavern",
+        "line2": "Turn Around...",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 170,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Return to the Mainland",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 171,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Enter the Overgrown Gardens",
+        "line2": "Turn Around...",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 172,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Agree to help Santa",
+        "line2": "Don't help Santa",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 173,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Talk about the Christmas 2016 event.",
+        "line2": "Browse the shop.",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 174,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Hello, adventurer!",
+        "line2": "What can I do for you?",
+        "next": 175,
+        "npcId": 7969
+    },
+	{
+        "id": 175,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Santa's sleigh is stuck. I'm helping him.",
+		"line2": "He said his Reindeer were the secret to flight.",
+		"line3": "And that you might be able to help me.",
+        "next": 176,
+        "npcId": -1
+    },
+	{
+        "id": 176,
+        "type": "NPC_STATEMENT",
+        "anim": "LISTEN_LAUGH",
+        "lines": 4,
+        "line1": "Oh yes, Santa and I have had a few adventures together.",
+        "line2": "Reindeer magic is a fragile thing. The smallest fluxuation",
+        "line3": "can easily hinder their ability to use magic.",
+        "line4": "Fortunately, the process of restoring them is simple.",
+        "next": 177,
+        "npcId": 7969
+    },
+	{
+        "id": 177,
+        "type": "NPC_STATEMENT",
+        "anim": "GOOFY_LAUGH",
+        "lines": 4,
+        "line1": "Bring 100 law, cosmic, and nature runes to the Reindeer.",
+        "line2": "You'll also need a Wizard's Mind Bomb.",
+        "line3": "The Wizard's Mind Bomb is for Santa, you can get one from",
+        "line4": "the Trader Crewmembers, at the docks to the South.",
+        "next": 179,
+        "npcId": 7969
+    },
+	{
+        "id": 178,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Ask about chartering a ship.",
+        "line2": "Browse the Trader's shop.",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 179,
+        "type": "NPC_STATEMENT",
+        "anim": "GOOFY_LAUGH",
+        "lines": 2,
+        "line1": "Just make sure you use the items on the Reindeer,",
+        "line2": "and everything will be fine.",
+        "next": 180,
+        "npcId": 7969
+    },
+	{
+        "id": 180,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Agree to bring the items to the Reindeer.",
+        "line2": "Cancel.",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 181,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "So, Jack has you searching for some items.",
+        "line2": "I'm sure that will help my situation, adventurer.",
+        "line3": "Once you have the runes, use them on my Reindeer.",
+        "line4": "After that, you can use the Mind Bomb on me.",
+        "next": -1,
+        "npcId": 1552
+    },
+	{
+        "id": 182,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "After you give the runes to the Reindeer,",
+        "line2": "bring me a Wizard's mind bomb.",
+        "next": -1,
+        "npcId": 1552
+    },
+	{
+        "id": 183,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Thank you for giving the runes to my Reindeer.",
+        "line2": "Please hand me the Wizard's Mind Bomb.",
+        "next": -1,
+        "npcId": 1552
+    },
+	{
+        "id": 184,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Adventurer! Thank you for all of your help!",
+        "line2": "My Reindeer have regained their magic ability,",
+		"line3": "and I got a tasty beverage.",
+        "next": 185,
+        "npcId": 1552
+    },
+	{
+        "id": 185,
+        "type": "PLAYER_STATEMENT",
+        "anim": "CONFUSED",
+        "lines": 1,
+        "line1": "The Wizard's Mind Bomb wasn't essential?",
+        "next": 186,
+        "npcId": -1
+    },
+	{
+        "id": 186,
+        "type": "NPC_STATEMENT",
+        "anim": "GOOFY_LAUGH",
+        "lines": 4,
+        "line1": "Of course it was! I forgot my wallet, otherwise",
+        "line2": "I would have visited Starbucks, as usual.",
+		"line3": "Regardless, You have been a big help.",
+		"line4": "And I'd like to offer you a special gift for your efforts.",
+        "next": 187,
+        "npcId": 1552
+    },
+	{
+        "id": 187,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Accept",
+        "line2": "Decline",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 188,
+        "type": "NPC_STATEMENT",
+        "anim": "GOOFY_LAUGH",
+        "lines": 2,
+        "line1": "Thanks for helping me, enjoy your gift.",
+        "line2": "Explorer Jack has extra incase you lose it.",
+        "next": -1,
+        "npcId": 1552
+    },
+	{
+        "id": 189,
+        "type": "NPC_STATEMENT",
+        "anim": "GOOFY_LAUGH",
+        "lines": 3,
+        "line1": "Happy 2017, explorer.",
+        "line2": "Avernic has some great things coming this year.",
+		"line3": "How would you like a present?",
+        "next": 187,
+        "npcId": 659
+    },
+	{
+        "id": 190,
+        "type": "PLAYER_STATEMENT",
+        "anim": "GOOFY_LAUGH",
+        "lines": 1,
+        "line1": "Happy 2017, Pete! I'm looking forward to it.",
+        "next": 191,
+        "npcId": -1
+    },
+	{
+        "id": 191,
+        "type": "NPC_STATEMENT",
+        "anim": "GOOFY_LAUGH",
+        "lines": 2,
+        "line1": "Always happy to celebrate. Enjoy yourself!",
+		"line2": "If you lose your gift, Diango can replace it.",
+        "next": -1,
+        "npcId": 659
+    },
+	{
+        "id": 192,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Let me explain how you can Dungeoneer.",
+        "line2": "I will store up to 39 stacks of gear for you.",
+		"line3": "Then you will be able to join a dungeon.",
+        "next": 193,
+        "npcId": 5382
+    },
+	{
+        "id": 193,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Once you are finish, you can take your gear back.",
+        "line2": "If you don't take ALL of your gear,",
+		"line3": "you won't gain any EXP or be able to attack.",
+        "line4": "So make sure you re-claim your items.",
+		"next": 194,
+        "npcId": 5382
+    },
+	{
+        "id": 194,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "You can right-click on me to store or retrieve gear.",
+		"next": -1,
+        "npcId": 5382
+    },
+	{
+        "id": 195,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Sorry, I can only help Ultimate Iron players.",
+        "next": -1,
+        "npcId": 5382
+    },
+	{
+        "id": 196,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Duel Arena",
+        "line2": "Castle Wars",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 197,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Burthorpe Games Room",
+        "line2": "Barbarian Agility Course",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 198,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Digsite Exam Center",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 200,
+        "type": "PLAYER_STATEMENT",
+        "anim": "CONFUSED",
+        "lines": 1,
+        "line1": "Hey there. What are you up to?",
+        "next": 201,
+        "npcId": -1
+    },
+	{
+        "id": 201,
+        "type": "NPC_STATEMENT",
+        "anim": "SCARED",
+        "lines": 1,
+        "line1": "...",
+        "next": -1,
+        "npcId": 1872
+    },
+	{
+        "id": 202,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Configure Gold Charms",
+		"line2": "Configure Green Charms",
+		"line3": "Configure Crimson Charms",
+		"line4": "Configure Blue Charms",
+		"line5": "Toggle Bonecrusher",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 203,
+        "type": "PLAYER_STATEMENT",
+        "anim": "CONFUSED",
+        "lines": 1,
+        "line1": "Hey are you okay?",
+        "next": 204,
+        "npcId": -1
+    },
+    {
+        "id": 204,
+        "type": "NPC_STATEMENT",
+        "anim": "SAD",
+        "lines": 2,
+        "line1": "No, I'm not - I really need help.",
+        "line2": "Could you help me please?",
+        "next": 205,
+        "npcId": 1835
+    },
+    {
+        "id": 205,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Hmm... I don't know I'm really busy.",
+        "next": 206
+    },
+    {
+        "id": 206,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Please let me explain what happened... ",
+        "line2": "My son thought it would be funny to hide some easter eggs.",
+        "line3": "It's some kind of April fools gag. He even made clues!",
+        "next": 207,
+        "npcId": 1835
+    },
+    {
+        "id": 207,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Hmm...",
+        "next": 210
+    },
+    {
+        "id": 208,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "That was annoying to do, but I found them all..",
+        "next": 209
+    },
+    {
+        "id": 209,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Thank you so much! Please take this as a reward!",
+        "line2": "Keep the eggs you found as well, adventurer.",
+        "next": 211,
+        "npcId": 1835
+    },
+    {
+        "id": 210,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Agree to help the Easter Bunny.",
+        "line2": "Disregard the poor bunny.",
+        "next": -1,
+        "npcId": -1
+    },
+	{
+        "id": 211,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Claim rewards.",
+        "line2": "Leave empty handed.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 212,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Teleport to Slayer Masters.",
+        "line2": "Open Kill Tracker.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 213,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "@red@----GWD RAIDS----.",
+		"line2": "This is a Safe Raid - @or2@You keep items.",
+		"line3": "Goodluck Ryan! :).",
+        "next": 98,
+        "npcId": 400
+    },
+   {
+        "id": 214,
+       "type": "OPTION",
+        "lines": 3,
+        "line1": "Teleport to Penguin Zone (Pebbles)",
+        "line2": "Teleport to Event Zone (E-Points)",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+   },
+   {
+	   "id": 216,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "@red@Hit",
+        "line2": "@red@Stay",
+        "next": -1,
+        "npcId": -1
+    },
+     {
+        "id": 218,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Buy 1 ticket",
+        "line2": "Buy x tickets",
+		"line3": "Claim pending winnings",
+		"line4": "Check current ticket amount",
+		"line5": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+     {
+       "id": 215,
+       "type": "OPTION",
+       "lines": 2,
+       "line1": "Open well of global bosses",
+       "line2": "Contribute to Well Of Good will",
+       "next": -1,
+       "npcId": -1
+   },
+    {
+       "id": 217,
+       "type": "OPTION",
+       "lines": 2,
+       "line1": "Max Invention (Level 90 Required)",
+       "line2": "Grand Max Invention (Level 120 Required)",
+       "next": -1,
+       "npcId": -1
+   },
+    {
+        "id": 522,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Salvage",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+        {
+        "id": 523,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Are you sure you would like to empty your items?",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 524,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Salvage 1x",
+        "line2": "Salvage ALL of this item",
+        "line3": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 615,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Well Hello there..",
+        "line2": "You having fun Trick or Treating?",
+        "line3": "Sigh.. The Pumpkin Lord is always getting all the glory",
+        "line4": "He's not even that Scary! I could carry that Scythe Easily..",
+        "next": 616,
+        "npcId": 6440
+    },
+    {
+        "id": 616,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Lets make a deal..",
+        "line2": "Bring me this list of items,in return for some Spooky Rewards?",
+        "line3": "then we can take the Pumpkin Lord down forever.. ",
+        "line4": "*cough*I mean go Trick or Treating*cough*",
+        "next": 617,
+        "npcId": 6440
+    },
+    {
+        "id": 617,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Sure I think I can handle that!",
+        "line2": "I think I need time to prepare..",
+        "next": 618,
+        "npcId": -1
+    },
+    {
+        "id": 618,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Kil Ghosts and retrieve a Ghost Speak Amulet",
+        "line2": "Slay Skeletons and bring back 5 Mangled Bones",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 619,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Wow.. You managed to get those items for me?",
+        "line2": "meh.. I guess you're alright after all..",
+        "line3": "Take these rewards.. Get outta here!",
+        "next": 620,
+        "npcId": 6440
+    },
+    {
+        "id": 620,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Umm Okay? (Accept Reward)",
+        "line2": "I'm not ready to accept.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 621,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Kil Ghosts and retrieve a Ghost Speak Amulet",
+        "line2": "Slay Skeletons and bring back 5 Mangled Bones",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 715,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Hello?? Anyone? Help me!!",
+        "line2": "Well, you know it's not polite to stare... ",
+        "line3": "Wait.. Can you understand me?",
+        "line4": "Don't just stand there.. do something!",
+        "next": 716,
+        "npcId": 1697
+    },
+    {
+        "id": 716,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "I've been trapped on this World by my brother..Terror.",
+        "line2": "We traded Souls for Halloween, and he decided",
+        "line3": "to give them to a few monsters...I Could really",
+        "line4": "use your help here.. Find the two pieces of my Soul?",
+
+        "next": 717,
+        "npcId": 1697
+    },
+    {
+        "id": 717,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "I guess I can help you out..",
+        "line2": "Give me some time to think about this...",
+        "next": 718,
+        "npcId": -1
+    },
+    {
+        "id": 718,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Defeat The Vampire + get Soul Part 1",
+        "line2": "Defeat The Dire Wolf + get Soul Part 2",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 719,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Is that..... my soul??",
+        "line2": "How did you manage to get the pieces back?",
+        "line3": "Please Take these Rewards as a token of my gratitude",
+        "line4": "Thank you.. Stranger..",
+        "next": 720,
+        "npcId": 1697
+    },
+    {
+        "id": 720,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "I did my best(Accept Reward)",
+        "line2": "Claim reward Later",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 721,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Defeat The Vampire + get Soul Part 1",
+        "line2": "Defeat The Dire Wolf + get Soul Part 2",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 815,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Oh hello, H...H..Happy Easter",
+        "line2": "I hope you are here to help..",
+        "line3": "Please help me find the ingredients for the sleep potion ",
+        "line4": "Mrs.Rabbit is going to LOSE IT if we don't hurry!",
+        "next": 816,
+        "npcId": 1530
+    },
+    {
+        "id": 816,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "I need your help finding the lost recipe actually...",
+        "line2": "then you can begin searching for the ingredients",
+        "line3": "Mrs.Rabbit is very dangerous if awoken, please hurry!",
+        "next": 817,
+        "npcId": 1530
+    },
+    {
+        "id": 817,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "I mean sure..I'll help out",
+        "line2": "You're on your own Bunny Boy!..",
+        "next": 818,
+        "npcId": -1
+    },
+    {
+        "id": 818,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Search the Enchanted Forest",
+        "line2": "Find hints on forging the 2 required potions. ",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 819,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "You found both ingredients?",
+        "line2": "Im impressed.... how did you manage that?",
+        "line3": "Let me try to combine them to make the potion...",
+        "next": 820,
+        "npcId": 1530
+    },
+    {
+        "id": 820,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Accept Reward",
+        "line2": "I'll Come back for my reward",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 821,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Search the Enchanted Forest",
+        "line2": "Find hints on forging the 2 required potions. ",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 1015,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Happy Halloween.",
+        "line2": "I seem to have misplaced my Heart and my Bow,",
+        "line3": "I think they got taken by the Lover's Titan",
+        "line4": "and the Lover's Keeper.",
+        "next": 1016,
+        "npcId": 1
+    },
+    {
+        "id": 1016,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Would you be willing to wage war",
+        "line2": "in the name of love and return my",
+        "line3": "beloved weapons?",
+        "next": 1017,
+        "npcId": 1
+    },
+    {
+        "id": 1017,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Sure let take these guys down!",
+        "line2": "I think I need time to prepare..",
+        "next": 1018,
+        "npcId": -1
+    },
+    {
+        "id": 1018,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Do you want to find my Heart first? ",
+        "line2": "Or would you like to find my Bow?",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 1019,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "You've done it! Thank you Aurorian!",
+        "line2": "As a sign of my graditude I would like",
+        "line3": "to bestow these rewards to you!",
+        "next": 1020,
+        "npcId": 1
+    },
+    {
+        "id": 1020,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Thank you! (Accept Reward)",
+        "line2": "I'll take it in a minute.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 1021,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Do you want to find my Heart first? ",
+        "line2": "Or would you like to find my Bow?",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 2012,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Start Raids",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": 9085
+    },
+    {
+        "id": 3000,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Ah, greetings, traveler. I can see the curiosity in your eyes.",
+        "line2": "It seems you have heard the whispers as well.",
+        "line3": "The air on MegaScape has grown heavy with unease.",
+        "line4": "I fear we are in the grip of a dark mystery.",
+        "next": 3001,
+        "npcId": 539
+    },
+    {
+        "id": 3001,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Whispers? What are you talking about?",
+        "next": 3002,
+        "npcId": 0
+    },
+    {
+        "id": 3002,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "The whispers, my friend, the whispers in the sand.",
+        "line2": "It all started when the Scepter of Suleiman vanished.",
+        "line3": "The Kharalos Elders passed it down through generations.",
+        "next": 3003,
+        "npcId": 539
+    },
+    {
+        "id": 3003,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Is there anything I can do to help out?",
+        "next": 3004,
+        "npcId": 0
+    },
+    {
+        "id": 3004,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Seek out the Oracle, listen to the tales of our lore.",
+        "line2": "Some say the secret to stopping the whispers",
+        "line3": "lies at the bottom of the Kharalos Tomb.",
+        "line4": "Help us restore peace. Will you recover our cherished artifact?",
+        "next": 3005,
+        "npcId": 539
+    },
+    {
+        "id": 3005,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Consider it Done! (Whispers in The Sand Quest)",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3006,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "I will find the missing sceptre!!.",
+        "next": 3007,
+        "npcId": 0
+    },
+    {
+        "id": 3007,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Thank you, kind traveler. Your determination gives us hope.",
+        "line2": "May the desert winds guide you in your quest.",
+        "line3": "Return to me when you have uncovered any leads",
+        "line4": "or discovered more about the whispers.",
+        "next": 3008,
+        "npcId": 539
+    },
+    {
+        "id": 3008,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "I'll be back with more information.",
+        "next": -1,
+        "npcId": 0
+    },
+    {
+        "id": 3009,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Psst! You there! Come closer, but keep your voice low.",
+        "line2": "I have a proposition for you.",
+        "next": 3010,
+        "npcId": 104
+    },
+    {
+        "id": 3010,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "What do you need from me?",
+        "next": 3011,
+        "npcId": 0
+    },
+    {
+        "id": 3011,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "There is a guard patrolling these streets.",
+        "line2": "He possesses an item of great value",
+        "line3": "The Tablet that holds crucial information.",
+        "line4": "I need you to retrieve it discreetly.",
+        "next": 3012,
+        "npcId": 104
+    },
+    {
+        "id": 3012,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Why can't you do it yourself?",
+        "next": 3013,
+        "npcId": 0
+    },
+    {
+        "id": 3013,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "My identity must remain hidden.",
+        "line2": "Besides, my skills lie elsewhere.",
+        "line3": "You are the perfect candidate for this task.",
+        "next": 3014,
+        "npcId": 104
+    },
+    {
+        "id": 3014,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Once you possess the Tablet, return to me immediately.",
+        "line2": "It contains vital information that could aid us ",
+        "line3": "in uncovering the truth behind the unsettling whispers. ",
+        "next": 3015,
+        "npcId": 104
+    },
+    {
+        "id": 3015,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Very well. I'll retrieve the Tablet and bring it back to you.",
+        "line2": "Come back later..",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3016,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Excellent. May stealth guide your steps, my friend.",
+        "line2": "Be swift, be silent, and return to me as soon as you have it.",
+        "next": -1,
+        "npcId": 104
+    },
+    {
+        "id": 3017,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You managed to obtain the tablet?",
+        "line2": "Quickly, let me have that. I'll work my magic.",
+        "next": 3018,
+        "npcId": 104
+    },
+    {
+        "id": 3018,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Give him the Tablet",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3019,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Thanks for you help...",
+        "line2": "Take the Enchanted Tablet to Kaden right away!",
+        "next": -1,
+        "npcId": 104
+    },
+    {
+        "id": 3020,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "I'll return to Kaden now.",
+        "next": -1,
+        "npcId": 0
+    },
+    {
+        "id": 3020,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Ah, you've returned!",
+        "line2": "And you've managed to acquire an enchanted Tablet?",
+        "line3": "Now, my dear adventurer, comes the crucial part.",
+        "next": 3021,
+        "npcId": 539
+    },
+    {
+        "id": 3021,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "I'm glad I could retrieve it for you. What now?",
+        "next": 3022,
+        "npcId": 0
+    },
+    {
+        "id": 3022,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "This Tablet holds ancient magic ",
+        "line2": "a connection to the realms beyond our mortal understanding.",
+        "line3": "I can cast a spell that will grant you access to the Oracle",
+        "line4": "A seer of great wisdom.",
+        "next": 3023,
+        "npcId": 539
+    },
+    {
+        "id": 3023,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "The Oracle? What can they tell me about the whispers?",
+        "next": 3024,
+        "npcId": 0
+    },
+    {
+        "id": 3024,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "By mystic words and ancient rhyme",
+        "line2": "Through realms unseen, beyond the time",
+        "line3": "With Tablet's power, let portals unfurl",
+        "line4": "Grant passage to the wisdom's swirl.",
+        "next": 3025,
+        "npcId": 539
+    },
+    {
+        "id": 3025,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "What was all that?",
+        "next": 3026,
+        "npcId": 0
+    },
+    {
+        "id": 3026,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "You can now use the Tablet to Travel.",
+        "line2": "It will transport you to the presence of the Oracle.",
+        "line3": "Seek their guidance, inquire about the Scepter",
+        "line4": "and learn the secrets that lie within.",
+        "next": 3027,
+        "npcId": 539
+    },
+    {
+        "id": 3027,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "I can manage that!",
+        "line2": "I'll come back again...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3028,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "I wish you safe travels..",
+        "next": -1,
+        "npcId": 539
+    },
+    {
+        "id": 3029,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Welcome, seeker of truths.",
+        "line2": "I have sensed your arrival and the weight of your inquiries. ",
+        "line3": "Speak your mind, and I shall provide guidance.",
+        "next": 3030,
+        "npcId": 541
+    },
+    {
+        "id": 3030,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "  Wise Oracle, I seek answers to the unsettling whispers",
+        "line2": "  and the whereabouts of the missing Scepter of Suleiman",
+        "line3": "  Can you shed light on these mysteries?",
+        "next": 3031,
+        "npcId": 0
+    },
+    {
+        "id": 3031,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Whispers from the sand, echoes of ancient sorrows",
+        "line2": "The Scepter of Suleiman, bearer of power and protection",
+        "line3": "has indeed been displaced from its rightful place.",
+        "line4": "The whispers are of the artifact's longing...",
+        "next": 3032,
+        "npcId": 541
+    },
+    {
+        "id": 3032,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "How can the Scepter be found?",
+        "line2": "Where is it now?",
+        "next": 3033,
+        "npcId": 0
+    },
+    {
+        "id": 3033,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "The Scepter has been concealed in the Tomb of Kharalos.",
+        "line2": "To find it, you must embark on a perilous journey",
+        "line3": "venturing into the depths where darkness",
+        "line4": "intertwines with ancient secrets. ",
+        "next": 3034,
+        "npcId": 541
+    },
+    {
+        "id": 3034,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Is there anything I should look out for?",
+        "next": 3035,
+        "npcId": 0
+    },
+    {
+        "id": 3035,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Kharalos tests the purity of heart and the strength of mind",
+        "line2": "Solve riddles, face formidable guardians",
+        "line3": "and navigate the intricate maze of illusions.",
+        "line4": "Only the resilient shall return with the Sceptre",
+        "next": 3036,
+        "npcId": 541
+    },
+    {
+        "id": 3036,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "I'l try my best (Start Kharalos Tomb)",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3037,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Thank you, Oracle, for your wisdom and guidance.",
+        "next": 3038,
+        "npcId": 0
+    },
+    {
+        "id": 3038,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "May the winds of destiny carry you safely through the Tomb.",
+        "next": -1,
+        "npcId": 541
+    },
+    {
+        "id": 3039,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Enter Kharalos Tomb",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3040,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Ah, brave adventurer, you have come seeking my aid.",
+        "line2": "The horror that looms before us is a formidable foe",
+        "line3": "but fear not , for I shall grant you the means to combat it.",
+        "next": 3041,
+        "npcId": 2397
+    },
+    {
+        "id": 3041,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "How can I defeat the Horror?",
+        "next": 3042,
+        "npcId": 0
+    },
+    {
+        "id": 3042,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "The horror is vulnerable to a weapon of ancient power",
+        "line2": "Behold, the Blade of Dawn, a relic passed down through the ages.",
+        "next": 3043,
+        "npcId": 2397
+    },
+    {
+        "id": 3043,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Give me that thing (Challenge The Horror)",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3044,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Thanks for entrusting me with this great responsibility.",
+        "line2": "I shall  face the horror head-on.",
+        "next": 3045,
+        "npcId": 0
+    },
+    {
+        "id": 3045,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "May my spirit guide your hand.",
+        "line2": "The fate of MegaScape rests upon your shoulders.",
+        "next": -1,
+        "npcId": 2397
+    },
+    {
+        "id": 3046,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Enter Kharalos Chamber (Boss Fight)",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3047,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "You've returned! And... you have Kharalos' remains! ",
+        "line2": "Kharalos' reign must have come to an end. Well done, adventurer.",
+        "line3": "Well done, adventurer.",
+        "next": 3048,
+        "npcId": 539
+    },
+    {
+        "id": 3048,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "It was a tough battle",
+        "line2": "but I managed to defeat Kharalos and the Horror... ",
+        "next": 3049,
+        "npcId": 0
+    },
+    {
+        "id": 3049,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "At last.. The whispers.. they have stopped..",
+        "next": 3050,
+        "npcId": 539
+    },
+    {
+        "id": 3050,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Accept Reward (Finish Quest)",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3051,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Claim Battle Pass(T1)?",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3052,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Claim Battle Pass(T2)?",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3053,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Claim Battle Pass(T1)?",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3054,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Claim Battle Pass(T2)?",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3055,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Brutal Power(Melee)",
+        "line2": "Jaded Vision(Range)",
+        "line3": "Mystic Might(Mage)",
+        "line4": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3060,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Brimstone",
+        "line2": "Everthorn",
+        "line3": "Basilisk",
+        "line4": "Next Page",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 3061,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Oracle",
+        "line2": "Rockmaw",
+        "line3": "Grimlash",
+        "line4": "Back to start..",
+        "next": 3060,
+        "npcId": -1
+    },
+    {
+        "id": 3062,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Boss 9",
+        "line2": "Boss 10",
+        "line3": "Boss 11",
+        "line4": "Boss 12",
+        "line5": "Back to start..",
+        "next": 3060,
+        "npcId": -1
+    },
+    {
+        "id": 4000,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Monster Essence",
+        "line2": "Fire Essence",
+        "line3": "Water Essence",
+        "line4": "Earth Essence",
+        "line5": "Slayer Essence",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 4005,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Empty Pouch",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5000,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Hello there Traveler!",
+        "line2": "Welcome to the Land of Vanguard. I'm Wizard Drendor.",
+        "line3": "We are in grave need of your assistance!",
+        "next": 5001,
+        "npcId": 249
+    },
+    {
+        "id": 5001,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "One of our Villagers has been taken by a Mighty Beast.",
+        "line2": "We've exhausted many resources trying to defeat him",
+        "line3": "I hope you're willing to slay the foul beast.",
+        "next": 5002,
+        "npcId": 249
+    },
+    {
+        "id": 5002,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Umm.. Well I just got here.",
+        "next": 5003,
+        "npcId": 0
+    },
+    {
+        "id": 5003,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "That's no problem at all. Assist the towns people.",
+        "line2": "Your efforts will unlock knowledge of crafting powerful",
+        "line3": "potions, harnessing elemental energy, and defeating",
+        "line4": "powerful beasts throughout the land of Vanguard!",
+        "next": 5004,
+        "npcId": 249
+    },
+    {
+        "id": 5004,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "How can I get started?",
+        "next": 5005,
+        "npcId": -1
+    },
+    {
+        "id": 5005,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Head North West to the Elemental Salt Mines",
+        "line2": "There you will find a dungeon entrance.",
+        "line3": "Climb down and rescue the lost villager",
+        "next": 5006,
+        "npcId": 249
+    },
+    {
+        "id": 5006,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Accept Tutorial Quest",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5007,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Ah, greetings, adventurer! I am Father Vanguard,",
+        "line2": "a humble servant of the divine.",
+        "line3": "It is my duty to instruct those who ",
+        "line4": "seek enlightenment in the ways of prayer.",
+        "next": 5008,
+        "npcId": 2899
+    },
+    {
+        "id": 5008,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Prayer, you say? Tell me more about it.",
+        "next": 5009,
+        "npcId": -1
+    },
+    {
+        "id": 5009,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Indeed! Prayer is a sacred art that draws its power",
+        "line2": "from three fundamental elements: Fire, Water, and Earth.",
+        "line3": "Each of these elements has its own unique qualities and can",
+        "line4": "be harnessed to strengthen your connection with the divine.",
+        "next": 5010,
+        "npcId": 2899
+    },
+    {
+        "id": 5010,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Can you tell me about each of the Elements?",
+        "next": 5011,
+        "npcId": -1
+    },
+    {
+        "id": 5011,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Of course. Let me explain.",
+        "line2": "Fire prayers represent the element of destruction",
+        "line3": "They are often used to burn, blast,",
+        "line4": "and smite your foes with righteous fury.",
+        "next": 5012,
+        "npcId": 2899
+    },
+    {
+        "id": 5012,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Water, on the other hand, embodies the element of",
+        "line2": "reflection and redirection. Water prayers are",
+        "line3": "employed to reflect and flow damage back to your enemies,",
+        "line4": "making them face the consequences of their actions.",
+        "next": 5013,
+        "npcId": 2899
+    },
+    {
+        "id": 5013,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Lastly, Earth symbolizes the element of healing and stability.",
+        "line2": "Earth prayers are primarily used for healing,",
+        "line3": "mending your wounds, and providing you with the",
+        "line4": "strength to endure the trials that are before you.",
+        "next": 5014,
+        "npcId": 2899
+    },
+    {
+        "id": 5014,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Wow. That is a lot to take in..",
+        "next": 5015,
+        "npcId": 0
+    },
+    {
+        "id": 5015,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "We have only just scratched the surface.",
+        "line2": "Would you mind completing a simple task for me?",
+        "next": 5016,
+        "npcId": 2899
+    },
+    {
+        "id": 5016,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Accept Church Task",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5017,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Sacrifice that urn for me and come right back!",
+        "next": -1,
+        "npcId": 2899
+    },
+    {
+        "id": 5018,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Why thank you traveler!",
+        "line2": "You now have a difficult choice to make.",
+        "line3": "Which Elemental prayer would you like to start off with?",
+        "next": 5019,
+        "npcId": 2899
+    },
+    {
+        "id": 5019,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Earth",
+        "line2": "Water",
+        "line3": "Fire",
+        "line4": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5020,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Ah, you've chosen Earth, the path of restoration.",
+        "line2": "Gaia's Blessing grants healing while in combat.",
+        "next": 5023,
+        "npcId": 2899
+    },
+    {
+        "id": 5021,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Ah, you've chosen Water, the path of reflection.",
+        "line2": "Ebb & Flow recoils damage dealt by your foes.",
+        "next": 5023,
+        "npcId": 2899
+    },
+    {
+        "id": 5022,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Ah, you've chosen Fire, the path of destruction.",
+        "line2": "Cinder's Touch will ignite your foes and apply burn damage.",
+        "next": 5023,
+        "npcId": 2899
+    },
+    {
+        "id": 5023,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "If you wish to gain even more strength in combat,",
+        "line2": "head back to the Salt mines and speak to the Miner.",
+        "line3": "Within each salt lies great energy and power!",
+        "next": -1,
+        "npcId": 2899
+    },
+    {
+        "id": 5024,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Greetings, adventurer!",
+        "line2": "I've got a task that requires someone with a strong mining",
+        "line3": "arm, and a keen eye. Are you up for a little challenge?",
+        "next": 5025,
+        "npcId": 1396
+    },
+    {
+        "id": 5025,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "I'm always up for a challenge! What do you need?",
+        "next": 5026,
+        "npcId": -1
+    },
+    {
+        "id": 5026,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Three remarkable salts can be found within the mines.",
+        "line2": "Damage Salt, Critical Salt, and Droprate Salt.",
+        "line3": "Each of them has unique properties, and I need you ",
+        "line4": "collect a bit of each for my research.",
+        "next": 5027,
+        "npcId": 1396
+    },
+    {
+        "id": 5027,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Damage Salt: This salt is said to enhance your combat prowess",
+        "line2": "It increases your offensive power, making attacks hit harder.",
+        "line3": "A valuable resource for any adventurer.",
+        "next": 5028,
+        "npcId": 1396
+    },
+    {
+        "id": 5028,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Critical Salt: Critical hits can turn the tide of battle.",
+        "line2": "This salt increases your chances of landing a critical hit,",
+        "line3": "ensuring that your strikes are even deadlier.",
+        "next": 5029,
+        "npcId": 1396
+    },
+    {
+        "id": 5029,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Droprate Salt: A favorite among treasure hunters.",
+        "line2": "This salt will boost your luck when it comes",
+        "line3": "It can improve your chances of getting that special rare.",
+        "next": 5030,
+        "npcId": 1396
+    },
+    {
+        "id": 5030,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Would you gather 5000 of each salt for me?",
+        "line2": "The rocks can be found very close by.",
+        "next": 5031,
+        "npcId": 1396
+    },
+    {
+        "id": 5031,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Accept Miner's Task",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5032,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Here, take this pickaxe. You will need it.",
+        "line2": "Come back with 5000 of each Salt, then we can talk.",
+        "next": -1,
+        "npcId": 1396
+    },
+    {
+        "id": 5033,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Why thank you brave adventurer!",
+        "line2": "Take these salt fragments to our Alchemist",
+        "line3": "Head over to his home and learn about his discoveries!",
+        "next": -1,
+        "npcId": 1396
+    },
+    {
+        "id": 5034,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Why hello there traveler, I see you brought me",
+        "line2": "some ingredients! Has the miner sent you to speak with me?",
+        "next": 5035,
+        "npcId": 8459
+    },
+    {
+        "id": 5035,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "I've indeed collected them!",
+        "line2": "What kind of potions can you create from these salts?",
+        "next": 5036,
+        "npcId": -1
+    },
+    {
+        "id": 5036,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Well, each salt has its unique properties that can be ",
+        "line2": "harnessed to create potent elixirs.",
+        "next": 5037,
+        "npcId": 8459
+    },
+    {
+        "id": 5037,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Damage Elixir: Crafted by using Damage Salt",
+        "line2": "This elixir will temporarily boost your combat",
+        "line3": "strength, making your attacks hit harder.",
+        "next": 5038,
+        "npcId": 8459
+    },
+    {
+        "id": 5038,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Critical Elixir: Crafted by using Critical Salt",
+        "line2": "This elixir enhances your chances",
+        "line3": "of landing critical hits.",
+        "next": 5039,
+        "npcId": 8459
+    },
+    {
+        "id": 5039,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Droprate Elixir: Crafted by using Droprate Salt",
+        "line2": "This elixir increases your luck in finding rare",
+        "line3": "and valuable items. It's a must-have for ",
+        "line4": "any avid adventurer and treasure hunter",
+        "next": 5040,
+        "npcId": 8459
+    },
+    {
+        "id": 5040,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Would you do me a favor and craft one of each?",
+        "line2": "Use the salts on a vial to learn their recipes.",
+        "next": 5041,
+        "npcId": 8459
+    },
+    {
+        "id": 5041,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Accept Alchemist Task",
+        "line2": "Not right now..",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5042,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Take these Vials and return once you have",
+        "line2": "made one of each type of potion!",
+        "next": 5043,
+        "npcId": 8459
+    },
+    {
+        "id": 5043,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "You got it!",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5044,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "You managed to craft all of those potions already?",
+        "line2": "I must say Traveler, I'm very impressed. With your",
+        "line3": "abilities and willingness to learn",
+        "next": 5045,
+        "npcId": 8459
+    },
+    {
+        "id": 5045,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "There's just a few things left to learn",
+        "line2": "before you can take on the Mighty Beast",
+        "line3": "and save our hostage Villager.",
+        "line4": "Head to the North and speak to the Beast Master.",
+        "next": -1,
+        "npcId": 8459
+    },
+    {
+        "id": 5046,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Welcome, brave adventurer, to the realm of the untamed.",
+        "line2": "I am the Beast Master, keeper of all monsters,",
+        "line4": "able to assign Slayer tasks and unlock rare Beasts.",
+        "line3": "It appears you've embarked on a quest of great importance.",
+        "next": 5047,
+        "npcId": 217
+    },
+    {
+        "id": 5047,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Indeed, I have.",
+        "line2": "I'm ready for the next step!",
+        "next": 5048,
+        "npcId": 0
+    },
+    {
+        "id": 5048,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Excellent! First off a true adventurer needs",
+        "line2": "a powerful set of armor. I can provide you with a choice",
+        "line3": "from the 3 Elements that make up our world.",
+        "line4": "Which Elemental Set would you like?",
+        "next": 5049,
+        "npcId": 217
+    },
+    {
+        "id": 5049,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Earth Set - Healing",
+        "line2": "Water Set - Critical",
+        "line3": "Fire Set - Damage",
+        "line4": "Not right now..",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5050,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Ah yes you've chosen the path of Earth!",
+        "next": 5053,
+        "npcId": 217
+    },
+    {
+        "id": 5051,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Ah yes you've chosen the path of Water!",
+        "next": 5053,
+        "npcId": 217
+    },
+    {
+        "id": 5052,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Ah yes you've chosen the path of Fire!",
+        "next": 5053,
+        "npcId": 217
+    },
+    {
+        "id": 5053,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "If you think you are ready to face the Mighty Beast,",
+        "line2": "head into the Salt mines to rescue the Villager!",
+        "next": 5054,
+        "npcId": 217
+    },
+    {
+        "id": 5054,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Thanks for all of your help.",
+        "line2": "I'll try my best!",
+        "next": -1,
+        "npcId": 0
+    },
+    {
+        "id": 5055,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Ah, welcome back, noble adventurer!",
+        "line2": "I sense a triumphant air about you.",
+        "line3": "Have you succeeded in your quest to vanquish the",
+        "line4": "Mighty beast and rescue the captive villager?",
+        "next": 5056,
+        "npcId": 249
+    },
+    {
+        "id": 5056,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Yes, I'm pleased to report that the beast has been",
+        "line2": "defeated, and the villager is safe and sound",
+        "next": 5057,
+        "npcId": 0
+    },
+    {
+        "id": 5057,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "You've accomplished what many deem impossible.",
+        "line2": "On behalf of the entire village and",
+        "line3": "a grateful wizard who lost his daughter. I thank you.",
+        "line4": "Please take these rewards as a token of our gratitude",
+        "next": 5058,
+        "npcId": 249
+    },
+    {
+        "id": 5058,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Complete Tutorial Quest",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 5059,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "If you have any further questions you can find me at home",
+        "line2": "Would you like to travel to the Mainland?",
+        "next": 5060,
+        "npcId": 249
+    },
+    {
+        "id": 5060,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Travel to Mainland",
+        "line2": "Not yet...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 6000,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Pass through",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 6060,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Rub all Lamps",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+
+    {
+        "id": 6090,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Start Sharpshooter Boss Instance",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+
+    {
+        "id": 6091,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Start Sorcerer Boss Instance",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 6092,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Start Warrior Boss Instance",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 6095,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Empty Rune Pouch",
+        "line2": "Nevermind...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 6097,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Damage Salts",
+        "line2": "Droprate Salts",
+        "line3": "Critical Essence",
+        "line4": "Nevermind",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 7126,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Leave",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 7458,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Upgrade",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9923,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "[petupgrading]",
+        "line2": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9924,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Athens tokens",
+        "line2": "Pvm tickets",
+        "line3": "Afk tickets",
+        "line4": "Slayer tickets",
+        "line5": "Next",
+        "next": 9925,
+        "npcId": -1
+    },
+    {
+        "id": 9925,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Vote scrolls",
+        "line2": "Pet fragments",
+        "line3": "Instance Tokens",
+        "line4": "Gold charms",
+        "line5": "Next",
+        "next": 9926,
+        "npcId": -1
+    },
+    {
+        "id": 9926,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Green charms",
+        "line2": "Crimson charms",
+        "line3": "Blue charms",
+        "line4": "Cancel",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9927,
+        "type": "STATEMENT",
+        "lines": 1,
+        "line1": "Do you wish to be teleported to your task? It will cost you 250,000 coins.",
+        "next": 9928,
+        "npcId": -1
+    },
+    {
+        "id": 9928,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Yes!",
+        "line2": "No.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 1311,
+        "type": "STATEMENT",
+        "lines": 1,
+        "line1": "Mysterious forces torture those within the trials",
+        "next": 1312,
+        "npcId": -1
+    },
+    {
+        "id": 1312,
+        "type": "STATEMENT",
+        "lines": 1,
+        "line1": "Access the Despair Points Shop?",
+        "next": 1313,
+        "npcId": -1
+    },
+    {
+        "id": 1313,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Yes!",
+        "line2": "No.",
+        "next": -1,
+        "npcId": -1
+    },
+
+    {
+        "id": 9901,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 4,
+        "line1": "Hello. I can give you a daily task.",
+        "line2": "You will receive a reward upon completing it.",
+        "line3": "You can get a maximum of 3 daily tasks each day.",
+        "line4": "Are you interested?",
+        "next": 9905,
+        "npcId": 289
+    },
+    {
+        "id": 9903,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You have already completed 3 daily tasks today.",
+        "line2": "Please come back tomorrow for more.",
+        "next": -1,
+        "npcId": 289
+    },
+    {
+        "id": 9904,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You already have a daily task.",
+        "line2": "Please complete it before receiving another one.",
+        "next": -1,
+        "npcId": 289
+    },
+    {
+        "id": 9905,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Yes, please give me a skilling task!",
+        "line2": "Yes, please give me a PvM task!",
+        "line3": "No thanks.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9906,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Global boss",
+        "line2": "Vote boss",
+        "line3": "Event Boss",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9907,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "YAYAYYAYAYA",
+        "line2": "Darkness Within",
+        "line3": "The Arcade Gauntlet",
+        "line4": "Damage Zone",
+        "line5": "Shields Minigame",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9908,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Mining",
+        "line2": "Woodcutting",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9909,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Vengeance Raids",
+        "line2": "Toy Story Raids",
+        "line3": "Narnia Raids",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9910,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Omega Zone",
+        "line2": "Superior Zone",
+        "line3": "Investor Zone",
+        "line4": "Executive Zone",
+        "line5": "Next Page..",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9911,
+        "type": "OPTION",
+        "lines": 5,
+        "line1": "Godly Zone",
+        "line2": "Celestial Zone",
+        "line3": "Divine Zone",
+        "line4": "Enlightened Zone",
+        "line5": "Next Page..",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9912,
+        "type": "OPTION",
+        "lines": 3,
+        "line1": "Galactic Zone",
+        "line2": "Universal Zone",
+        "line3": "Go back..",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9913,
+        "type": "NPC_STATEMENT",
+        "lines": 1,
+        "line1": "Krampus sent all these phony santas to kill my vibe",
+        "next": 9914,
+        "npcId": -1
+    },
+    {
+        "id": 9914,
+        "type": "PLAYER_STATEMENT",
+        "lines": 1,
+        "line1": "Is there anything I can do to help?",
+        "next": 9915,
+        "npcId": -1
+    },
+    {
+        "id": 9915,
+        "type": "NPC_STATEMENT",
+        "lines": 1,
+        "line1": "If you can collect enough christmas spirits, I should be able to defeat all these imposters.",
+        "next": 9916,
+        "npcId": -1
+    },
+    {
+        "id": 9916,
+        "type": "NPC_STATEMENT",
+        "lines": 1,
+        "line1": "Alright, I'll see what I can do.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9917,
+        "type": "NPC_STATEMENT",
+        "lines": 1,
+        "line1": "Are you even trying? Come back when you have something worth showing.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9918,
+        "type": "NPC_STATEMENT",
+        "lines": 1,
+        "line1": "Pshh, I knew I could do it!.",
+        "next": 9919,
+        "npcId": -1
+    },
+    {
+        "id": 9919,
+        "type": "PLAYER_STATEMENT",
+        "lines": 1,
+        "line1": "WHAT?!?!",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 9920,
+        "type": "NPC_STATEMENT",
+        "lines": 1,
+        "line1": "That was too easy! What were you doing just standing there??",
+        "next": 9921,
+        "npcId": -1
+    },
+    {
+        "id": 9921,
+        "type": "PLAYER_STATEMENT",
+        "lines": 1,
+        "line1": "Merry christmas to you to...",
+        "next": -1,
+        "npcId": -1
+    },
+
+
+
+    {
+        "id": 8800,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Ah, adventurer! Just the person I was hoping to see!",
+        "line2": "I've found myself in quite the predicament",
+        "line3": "this Easter..",
+        "next": 8801,
+        "npcId": 1835
+    },
+    {
+        "id": 8801,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "What seems to be the problem?",
+        "next": 8802,
+        "npcId": -1
+    },
+    {
+        "id": 8802,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "The magical eggs I've prepared for Easter, have been umm.",
+        "line2": "How do you say...",
+        "next": 8803,
+        "npcId": 1835
+    },
+    {
+        "id": 8803,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Misplaced? Lost?",
+        "next": 8804,
+        "npcId": -1
+    },
+    {
+        "id": 8804,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Ah yes that's the word. LOST!",
+        "line2": "You wouldn't mind helping me with some tasks,",
+        "line3": "in order to find them would you?",
+        "next": 8805,
+        "npcId": 1835
+    },
+    {
+        "id": 8805,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Alright, Mr Bunny. You can count on me.",
+        "line2": "What's the first task?",
+        "next": 8807,
+        "npcId": -1
+    },
+    {
+        "id": 8807,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Begin Easter Quest",
+        "line2": "Not Right now",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8810,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "First, I need you to gather 20 Vorpal Scraps.",
+        "line2": "These can be mined at the Journeyman mine.",
+        "line3": "I'll need them to fix my Egg Locator.",
+        "next": 8811,
+        "npcId": 1835
+    },
+    {
+        "id": 8811,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "You got it, i'll be back!",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8812,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "I still need those Vorpal Scraps.",
+        "line2": "Bring me 20 Quickly!",
+        "next": -1,
+        "npcId": 1835
+    },
+
+    {
+        "id": 8815,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "Thanks for gathering those Scraps.",
+        "line2": "Next i'll need you to search the Kings Magic Wardrobe ",
+        "line3": "He's borrowed something of mine and not returned it.",
+        "next": 8816,
+        "npcId": 1835
+    },
+    {
+        "id": 8816,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Im on it.",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8817,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "I still need you to search the Kings Magic Wardrobe..",
+        "next": -1,
+        "npcId": 1835
+    },
+
+    {
+        "id": 8820,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Thanks for returning my item",
+        "line2": "The next task may be a bit, messier...",
+        "next": 8821,
+        "npcId": 1835
+    },
+    {
+        "id": 8821,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "What is it this time?",
+        "next": 8840,
+        "npcId": -1
+    },
+    {
+        "id": 8840,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You'll need to slay 25 rabid Bunnies for me.",
+        "line2": "They can be found wandering in ::easter!",
+        "next": 8822,
+        "npcId": 1835
+    },
+    {
+        "id": 8822,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "I'll be back...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8823,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "It seems you haven't slayed 25 Rabid Bunnies yet...",
+        "next": -1,
+        "npcId": 1835
+    },
+    {
+        "id": 8824,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Ahh you managed to take out all of those Bunnies?",
+        "line2": "Great work Adventurer, just a few more things now.",
+        "next": 8825,
+        "npcId": 1835
+    },
+    {
+        "id": 8825,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "What else ya got for me?",
+        "next": 8826,
+        "npcId": -1
+    },
+    {
+        "id": 8826,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Head over to the Woodcutting area. ",
+        "line2": "I need you to gather 25 Vorpal logs.",
+        "next": 8827,
+        "npcId": 1835
+    },
+    {
+        "id": 8827,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Coming right up!",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8828,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "I still need those 25 Vorpal Logs.",
+        "line2": "Come back when you have them all please.",
+        "next": -1,
+        "npcId": 1835
+    },
+    {
+        "id": 8829,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Well that was quick!",
+        "line2": "Just one more task and I'll have a nice reward for you!",
+        "next": 8830,
+        "npcId": 1835
+    },
+    {
+        "id": 8830,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "If you say so...",
+        "next": 8831,
+        "npcId": -1
+    },
+    {
+        "id": 8831,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 3,
+        "line1": "I won't be able to gather all of the Eggs myself.",
+        "line2": "I'll need you to collect at least one for me.",
+        "line3": "They spawn randomly throughout the world.",
+        "next": 8832,
+        "npcId": 1835
+    },
+    {
+        "id": 8832,
+        "type": "PLAYER_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "I'll be back!",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8833,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 1,
+        "line1": "Come back when you've found that Egg!",
+        "next": -1,
+        "npcId": 1835
+    },
+    {
+        "id": 8835,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "Wow I must say, I'm impressed.",
+        "line2": "You managed to complete all of those tasks.",
+        "next": 8834,
+        "npcId": 1835
+    },
+    {
+        "id": 8834,
+        "type": "OPTION",
+        "lines": 2,
+        "line1": "Accept Reward",
+        "line2": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8845,
+        "type": "NPC_STATEMENT",
+        "anim": "NORMAL",
+        "lines": 2,
+        "line1": "You'll need 1000 Easter Fragments.",
+        "line2": "Then I can forge an Egg Crate for you!",
+        "next": -1,
+        "npcId": 1835
+    },
+
+    {
+        "id": 8901,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Earth Prayer",
+        "line2": "Water Prayer",
+        "line3": "Fire Prayer",
+        "line4": "Not right now...",
+        "next": -1,
+        "npcId": -1
+    },
+    {
+        "id": 8995,
+        "type": "OPTION",
+        "lines": 4,
+        "line1": "Earth Set",
+        "line2": "Water Set",
+        "line3": "Fire Set",
+        "line4": "Not right now..",
+        "next": -1,
+        "npcId": -1
+    }
+]

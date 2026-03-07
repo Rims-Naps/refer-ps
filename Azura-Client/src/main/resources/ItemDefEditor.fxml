@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<TabPane fx:id="parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="748.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.necrotic.client.jfx.itemdefeditor.MainController">
+    <tabs>
+        <Tab text="Definition Tab">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <ListView fx:id="colorListView" layoutX="14.0" layoutY="23.0" prefHeight="428.0" prefWidth="253.0" />
+                        <ImageView fx:id="itemImage" fitHeight="128.0" fitWidth="128.0" layoutX="238.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
+                        <VBox fx:id="slidersVBox" layoutX="272.0" layoutY="23.0" prefHeight="275.0" prefWidth="120.0">
+                            <children>
+                                <Label fx:id="zoomLabel" text="Zoom" />
+                                <Slider fx:id="zoomSlider" blockIncrement="1.0" max="10000.0" />
+                                <Label text="X Rotation" fx:id="xRotationLabel" />
+                                <Slider blockIncrement="1.0" max="2047.0" fx:id="xRotationSlider" />
+                                <Label fx:id="yRotationLabel" text="Y Rotation" />
+                                <Slider fx:id="yRotationSlider" blockIncrement="1.0" max="2047.0" />
+                                <Label text="X Offset" fx:id="xOffsetLabel" />
+                                <Slider blockIncrement="1.0" max="500.0" fx:id="xOffsetSlider" />
+                                <Label fx:id="yOffsetLabel" text="Y Offset" />
+                                <Slider fx:id="yOffsetSlider" blockIncrement="1.0" max="500.0" min="-100.0" />
+                                <Label fx:id="zOffsetLabel" text="Z Offset" />
+                                <Slider fx:id="zOffsetSlider" blockIncrement="1.0" max="500.0" min="-100.0" />
+                                <Label layoutX="10.0" layoutY="165.0" text="X Translation" fx:id="xTranslationLabel" />
+                                <Slider blockIncrement="1.0" layoutX="10.0" layoutY="182.0" max="500.0" min="-100.0" fx:id="xTranslationSlider" />
+                                <Label fx:id="yTranslationLabel" layoutX="10.0" layoutY="196.0" text="Y Translation" />
+                                <Slider fx:id="yTranslationSlider" blockIncrement="1.0" layoutX="10.0" layoutY="213.0" max="500.0" min="-100.0" />
+                                <Label fx:id="zTranslationLabel" layoutX="10.0" layoutY="227.0" text="Z Translation" />
+                                <Slider fx:id="zTranslationSlider" blockIncrement="1.0" layoutX="10.0" layoutY="244.0" max="500.0" min="-100.0" />
+                            </children>
+                        </VBox>
+                        <HBox layoutX="305.0" layoutY="466.0" prefHeight="25.0" prefWidth="443.0" spacing="5.0">
+                            <children>
+                                <Button fx:id="resetButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="121.0" text="Reset to Defaults" />
+                                <Button fx:id="saveColorsButton" mnemonicParsing="false" onAction="#generateCode" prefHeight="25.0" prefWidth="148.0" text="Generate and copy code" />
+                                <Button fx:id="generateJsonButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="Generate and copy JSON" />
+                            </children>
+                        </HBox>
+                        <HBox layoutX="14.0" layoutY="466.0" prefHeight="25.0" prefWidth="284.0" spacing="5.0">
+                            <children>
+                                <TextField fx:id="idTextField" prefHeight="25.0" prefWidth="92.0" />
+                                <TextField fx:id="newIdField" prefHeight="25.0" prefWidth="92.0" promptText="New item ID" />
+                                <CheckBox fx:id="useNewIdCheckBox" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Use new id" />
+                            </children>
+                        </HBox>
+                        <VBox fx:id="texturesVBox" layoutX="275.0" layoutY="322.0" prefHeight="88.0" prefWidth="100.0" spacing="5.0">
+                            <children>
+                                <TextField fx:id="textureField1" prefHeight="25.0" prefWidth="155.0" promptText="Texture 1" visible="false" />
+                                <TextField fx:id="textureField2" prefHeight="25.0" prefWidth="155.0" promptText="Texture 2" visible="false" />
+                                <TextField fx:id="textureField3" prefHeight="25.0" prefWidth="155.0" promptText="Texture 3" visible="false" />
+                            </children>
+                        </VBox>
+                        <Button fx:id="saveButton" layoutX="272.0" layoutY="426.0" mnemonicParsing="false" text="Save" />
+                    </children></AnchorPane>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

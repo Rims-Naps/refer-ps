@@ -1,0 +1,319 @@
+package com.ruse.world.content.skill.impl.slayer;
+
+import com.ruse.world.content.dialogue.Dialogue;
+import com.ruse.world.content.dialogue.DialogueExpression;
+import com.ruse.world.content.dialogue.DialogueManager;
+import com.ruse.world.content.dialogue.DialogueType;
+import com.ruse.world.entity.impl.player.Player;
+
+public class SlayerDialogues {
+
+	/**
+	 * Dialogues that can't be handled by XML
+	 */
+	public static Dialogue dialogue(Player player) {
+		return new Dialogue() {
+
+			@Override
+			public DialogueType type() {
+				return DialogueType.STATEMENT;
+			}
+
+			@Override
+			public int npcId() {
+				return player.getSlayer().getSlayerMaster().getNpcId();
+			}
+
+			@Override
+			public DialogueExpression animation() {
+				return DialogueExpression.TALK_SWING;
+			}
+
+			@Override
+			public String[] dialogue() {
+				return new String[] { "Hey there! ", "What can I do for you?" };
+			}
+
+			@Override
+			public void specialAction() {
+
+			}
+
+			@Override
+			public Dialogue nextDialogue() {
+				return new Dialogue() {
+
+					@Override
+					public DialogueType type() {
+						return DialogueType.OPTION;
+					}
+
+					@Override
+					public int npcId() {
+						return player.getSlayer().getSlayerMaster().getNpcId();
+					}
+
+					@Override
+					public DialogueExpression animation() {
+						return null;
+					}
+
+					@Override
+					public String[] dialogue() {
+						return new String[] { "What's my current assignment?", "I'd like to reset my Slayer Task",
+								"How many points do I currently receive per task?",
+								player.getSlayer().getDuoPartner() != null ? "I'd like to reset my duo team"
+										: "Nothing, thanks"
+
+						};
+					}
+
+					@Override
+					public void specialAction() {
+						if (player.getSlayer().getSlayerTask() == SlayerTasks.NO_TASK) {
+							player.getPacketSender().sendInterfaceRemoval();
+							DialogueManager.start(player, secondDialogue(player));
+							player.setDialogueActionId(30);
+							return;
+						}
+						player.setDialogueActionId(31);
+					}
+				};
+			}
+		};
+	}
+
+	public static Dialogue secondDialogue(Player player) {
+		return new Dialogue() {
+
+			@Override
+			public DialogueType type() {
+				return DialogueType.OPTION;
+			}
+
+			@Override
+			public int npcId() {
+				return -1;
+			}
+
+			@Override
+			public DialogueExpression animation() {
+				return null;
+			}
+
+			@Override
+			public String[] dialogue() {
+				boolean inDuo = player.getSlayer().getDuoPartner() != null;
+				return new String[] { "I'd like a Slayer task", "I'd like to view your Slayer rewards",
+						"I'd like to view your stock of Slayer items",
+						inDuo ? "I'd like to reset my duo team" : "Nothing, thanks" };
+			}
+
+			@Override
+			public void specialAction() {
+
+			}
+		};
+	}
+
+	public static Dialogue receivedTask(Player player, SlayerMaster master, SlayerTasks task) {
+		return new Dialogue() {
+			final int amountToKill = player.getSlayer().getAmountToSlay();
+
+			@Override
+			public DialogueType type() {
+				return DialogueType.STATEMENT;
+			}
+
+			@Override
+			public int npcId() {
+				return master.getNpcId();
+			}
+
+			@Override
+			public DialogueExpression animation() {
+				return DialogueExpression.NORMAL;
+			}
+
+			@Override
+			public String[] dialogue() {
+				boolean duoSlayer = player.getSlayer().getDuoPartner() != null;
+				String you = duoSlayer ? "You" : "You";
+				String line1 = "You have been assigned to kill " + amountToKill + " "
+						+ task.getName() + "s.";
+				String line2 = "";
+			/*	if (duoSlayer) {
+					line1 = "" + you + " have been assigned to kill ";
+					line2 = "" + amountToKill + " " + task.getName() + "s.";
+				}*/
+				if (player.getSlayer().getLastTask() != SlayerTasks.NO_TASK) {
+					line1 = "Your new task is to kill " + amountToKill + " " + task.getName() + "s.";
+				}
+				return new String[] { "" + line1 + line2 +""};
+			}
+
+			@Override
+			public void specialAction() {
+			}
+		};
+	}
+
+	public static Dialogue findAssignment(Player player) {
+		SlayerMaster master = player.getSlayer().getSlayerMaster();
+		SlayerTasks task = player.getSlayer().getSlayerTask();
+
+		return new Dialogue() {
+			@Override
+			public DialogueType type() {
+				return DialogueType.STATEMENT;
+			}
+
+			@Override
+			public int npcId() {
+				return master.getNpcId();
+			}
+
+			@Override
+			public DialogueExpression animation() {
+				return DialogueExpression.NORMAL;
+			}
+
+			@Override
+			public String[] dialogue() {
+				String l = "";
+				if (task != null)
+					l = task.getNpcLocation();
+				return new String[] {
+						"Your task is to kill " + (player.getSlayer().getAmountToSlay()) + " "
+								+ task.getName() + "s.",
+						"" + l + "" };
+			}
+
+			@Override
+			public void specialAction() {
+
+			}
+		};
+	}
+
+	public static Dialogue resetTaskDialogue(Player player) {
+		SlayerMaster master = player.getSlayer().getSlayerMaster();
+		return new Dialogue() {
+			@Override
+			public DialogueType type() {
+				return DialogueType.STATEMENT;
+			}
+
+			@Override
+			public int npcId() {
+				return master.getNpcId();
+			}
+
+			@Override
+			public DialogueExpression animation() {
+				return DialogueExpression.NORMAL;
+			}
+
+			@Override
+			public String[] dialogue() {
+				return new String[] {"It costs one Task Skip scroll to cancel a task",
+						"You will also lose your Task Streak.", "Are you sure you wish to continue?" };
+			}
+
+			@Override
+			public void specialAction() {
+
+			}
+
+			@Override
+			public Dialogue nextDialogue() {
+				return new Dialogue() {
+
+					@Override
+					public DialogueType type() {
+						return DialogueType.OPTION;
+					}
+
+					@Override
+					public DialogueExpression animation() {
+						return null;
+					}
+
+					@Override
+					public String[] dialogue() {
+						return new String[] { "Yes, please", "Cancel"
+
+						};
+					}
+
+					@Override
+					public void specialAction() {
+						player.setDialogueActionId(33);
+					}
+				};
+			}
+		};
+	}
+
+	public static Dialogue totalPointsReceived(Player player) {
+		return new Dialogue() {
+			@Override
+			public DialogueType type() {
+				return DialogueType.STATEMENT;
+			}
+
+			@Override
+			public int npcId() {
+				return player.getSlayer().getSlayerMaster().getNpcId();
+			}
+
+			@Override
+			public DialogueExpression animation() {
+				return DialogueExpression.NORMAL;
+			}
+
+			@Override
+			public String[] dialogue() {
+				int pointsReceived = 4;
+				/*
+				 * if(player.getSlayerMaster() == Slayer) //medium task pointsReceived = 7;
+				 * if(player.getSlayerMaster().getTaskLevel() == 2) //hard/elite tasks
+				 * pointsReceived = 10;
+				 */
+				int per5 = pointsReceived * 3;
+				int per10 = pointsReceived * 5;
+				return new String[] { "You currently receive " + pointsReceived + " points per task,",
+						"" + per5 + " bonus points per 5 task-streak and",
+						"" + per10 + " bonus points per 10 task-streak." };
+			}
+
+			@Override
+			public void specialAction() {
+
+			}
+		};
+	}
+
+	public static Dialogue inviteDuo(Player player, Player inviteOwner) {
+		return new Dialogue() {
+			@Override
+			public DialogueType type() {
+				return DialogueType.OPTION;
+			}
+
+			@Override
+			public String[] dialogue() {
+				return new String[]{"Accept " + inviteOwner.getUsername() + "'s invitation",
+						"Decline " + inviteOwner.getUsername() + "'s invitation"
+
+				};
+			}
+					@Override
+					public void specialAction() {
+						player.setDialogueActionId(34);
+						player.getSlayer().setDuoInvitation(inviteOwner.getUsername());
+					}
+				};
+			}
+
+}

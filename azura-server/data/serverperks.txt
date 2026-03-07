@@ -1,0 +1,3 @@
+DROP_RATE, 0
+DAMAGE, 15000
+activePerks: DAMAGE
