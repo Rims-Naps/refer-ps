@@ -3,10 +3,9 @@ name: Build
 on:
   push:
     branches: [ main ]
-  pull_request:
-  push:
     tags:
-      - "v*"
+      - "*"
+  pull_request:
 
 jobs:
   build:
